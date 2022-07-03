@@ -11,6 +11,8 @@ services:
         environment:
             MYSQL_DATABASE: "tasks_db"
             MYSQL_ROOT_PASSWORD: "Jay#254701437909"
+            MYSQL_USER: "laravel"
+            MYSQL_PASSWORD: "0701437909"
             SERVICE_TAGS: dev
             SERVICE_NAME: mysql
         volumes:
