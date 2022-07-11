@@ -147,7 +147,7 @@ In this case, the `.env` should have the following:
 
 `DB_DATABASE=tasks_db`
 
-Build the containers with docker-compose using the `docker-compose build` command in detached mode.
+Build the containers with docker-compose using the `docker-compose build` command.
 
 ```bash
 docker-compose build
@@ -201,7 +201,8 @@ You can run tests within the `api` service:
 php artisan test
 ```
 
-The app should be accessible on port 8050. Access it at `http://127.0.0.1:8050/`.
+The app frontend should be accessible on port **8050**. Access it at `http://127.0.0.1:8050/`.
+The app backend API should be accessible on port **8051**. Access it at `http://127.0.0.1:8051/api/`.
 
 
 ### CI Deployment Info

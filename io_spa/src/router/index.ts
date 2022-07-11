@@ -1,6 +1,6 @@
 import {route} from 'quasar/wrappers';
 import {Notify} from 'quasar';
-import {isUserLoggedIn, prepareErrorMessage, showErrorNotification} from 'src/utils/utils';
+import {isUserLoggedIn, prepareErrorMessage} from 'src/utils/utils';
 import profileMethods from 'components/profile/profileMethods';
 import {
   createMemoryHistory,

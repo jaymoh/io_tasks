@@ -4,9 +4,6 @@ namespace Tests\Unit\Http;
 
 use App\Models\User;
 
-use Database\Seeders\TestDatabaseSeeder;
-use Illuminate\Database\Eloquent\Builder;
-use Illuminate\Foundation\Testing\RefreshDatabase;
 use Tests\TestCase;
 
 abstract class AbstractHttpTest extends TestCase
